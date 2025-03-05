@@ -29,6 +29,17 @@ function buildHeroBlock(main) {
 }
 
 /**
+ * Adds target=_blank to links
+ */
+function linktarget() {
+  const links = document.querySelectorAll('a');
+
+  links.forEach(link => {
+    link.setAttribute('target', '_blank');
+  });
+}
+
+/**
  * load fonts.css and set a session storage flag
  */
 async function loadFonts() {
