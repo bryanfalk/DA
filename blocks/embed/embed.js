@@ -58,8 +58,8 @@ const embedTwitter = (url) => {
 const embedGoogleMaps = (url) => {
   const embedHTML =`<div>
 <iframe
-  width="450"
-  height="250"
+  width="600"
+  height="400"
   frameborder="0" style="border:0" X-Frame-Options: DENY;
   referrerpolicy="no-referrer-when-downgrade"
   src="https://www.google.com/maps/d/u/1/${suffix}"
