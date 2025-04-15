@@ -72,7 +72,7 @@ const embedGoogleMaps = (url) => {
 const embedGoogleCalendar = (url) => {
   const embedHTML = `<div>
 <iframe
-  width="800"
+  width="1200"
   height="600"
   frameborder="0" style="border:0" X-Frame-Options: DENY;
   referrerpolicy="no-referrer-when-downgrade"
