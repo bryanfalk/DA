@@ -101,6 +101,10 @@ const loadEmbed = (block, link, autoplay) => {
       match: ['twitter'],
       embed: embedTwitter,
     },
+    {
+      match: ['Calendar'],
+      embed: embedGoogleCalendar,
+    },
   ];
 
   const config = EMBEDS_CONFIG.find((e) => e.match.some((match) => link.includes(match)));
