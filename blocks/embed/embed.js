@@ -55,6 +55,20 @@ const embedTwitter = (url) => {
   return embedHTML;
 };
 
+const embedGoogleMaps = (url) => {
+  const embedHTML =`<div>
+<iframe
+  width="450"
+  height="250"
+  frameborder="0" style="border:0" X-Frame-Options: DENY;
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/d/u/1/${suffix}"
+  allowfullscreen>
+</iframe>
+</div>`;
+  return embedHTML;
+};
+
 const loadEmbed = (block, link, autoplay) => {
   if (block.classList.contains('embed-is-loaded')) {
     return;
