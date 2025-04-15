@@ -56,7 +56,7 @@ const embedTwitter = (url) => {
 };
 
 const embedGoogleMaps = (url) => {
-  const embedHTML =`<div>
+  const embedHTML = `<div>
 <iframe
   width="800"
   height="600"
@@ -70,7 +70,7 @@ const embedGoogleMaps = (url) => {
 };
 
 const embedGoogleCalendar = (url) => {
-  const embedHTML =`<div>
+  const embedHTML = `<div>
 <iframe
   width="800"
   height="600"
@@ -81,7 +81,7 @@ const embedGoogleCalendar = (url) => {
 </iframe>
 </div>`;
   return embedHTML;
-};  
+};
 
 const loadEmbed = (block, link, autoplay) => {
   if (block.classList.contains('embed-is-loaded')) {
