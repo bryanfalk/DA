@@ -1,7 +1,6 @@
 .columnsc > div {
   display: flex;
   flex-direction: column;
-  background-color: var(--light-blue);
   text-align: center;
 }
 
