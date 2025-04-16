@@ -1,6 +1,7 @@
 .columns9 > div {
   display: flex;
   flex-direction: column;
+  background-color: var(--light-orange);
 }
 
 .columns9 img {
@@ -20,7 +21,7 @@
 }
 
 @media (width >= 900px) {
-  .columns > div {
+  .columns9 > div {
     align-items: center;
     flex-direction: unset;
     gap: 24px;
