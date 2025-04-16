@@ -1,7 +1,6 @@
 .columns9 > div {
   display: flex;
   flex-direction: column;
-  background-color: var(--light-orange);
   text-align: center;
 }
 
