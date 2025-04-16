@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: var(--light-orange);
+  text-align: center;
 }
 
 .columns9 img {
