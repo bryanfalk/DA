@@ -1,6 +1,8 @@
 .columnsc > div {
   display: flex;
   flex-direction: column;
+  background-color: var(--light-blue);
+  text-align: center;
 }
 
 .columnsc img {
@@ -20,13 +22,13 @@
 }
 
 @media (width >= 900px) {
-  .columnsc > div {
+  .columns3 > div {
     align-items: center;
     flex-direction: unset;
     gap: 24px;
   }
 
-  .columns > div > div {
+  .columnsc > div > div {
     flex: 1;
     order: unset;
   }
