@@ -102,6 +102,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
+  buildLayoutContainer(main);
 }
 
 /**
