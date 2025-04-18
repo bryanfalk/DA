@@ -31,4 +31,7 @@
     order: unset;
   }
 }
-.columns.light-yellow
+
+.columns.light-orange > div{
+  background-color: var(--light-orange);
+}
