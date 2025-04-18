@@ -2,6 +2,7 @@
   width: unset;
   text-align: center;
   margin: 32px auto;
+  max-width: 90%;
 }
 
 .embed > div {
