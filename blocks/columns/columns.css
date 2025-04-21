@@ -39,3 +39,7 @@
 .columns.light-blue > div{
   background-color: var(--light-blue);
 }
+
+.columns.center > div{
+  text-align: center;
+}
