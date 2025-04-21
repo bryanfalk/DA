@@ -320,7 +320,7 @@ main .section.highlight {
   main .section[data-layout="75/25"] .layout-wrapper > div {
     flex: 0 1 25%;
 
-    &:last-of-type {
+    &:first-of-type {
       flex: 0 1 calc(75% - 20px);
       margin-right: 20px;
     }
