@@ -61,4 +61,7 @@
   left: 7px;
 }
 
-
+.embed.unlschedule > div{
+  width: 336px;
+  height: 700px;
+}
