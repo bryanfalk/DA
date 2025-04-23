@@ -59,7 +59,7 @@
   left: 7px;
 }
 
-.embed.unlschedule > div{
+.embed.unlschedule > div iframe{
   width: 336px;
-  height: 700px;
+  height: 488px;
 }
