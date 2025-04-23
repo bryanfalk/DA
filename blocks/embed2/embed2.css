@@ -9,11 +9,6 @@
   justify-content: center;
 }
 
-.embed.embed-twitter .twitter-tweet-rendered {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .embed .embed-placeholder {
   width: 100%;
   position: relative;
@@ -23,6 +18,8 @@
 
 .embed .embed-placeholder > * {
   display: flex;
+  width: 336px;
+  height: 488px;
   align-items: center;
   justify-content: center;
   position: absolute;
