@@ -17,6 +17,8 @@
 .embed .embed-placeholder {
   width: 100%;
   position: relative;
+  width: 336px;
+  height: 488px;
 }
 
 .embed .embed-placeholder > * {
