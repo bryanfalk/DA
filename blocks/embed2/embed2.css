@@ -1,5 +1,4 @@
 .embed {
-  width: unset;
   text-align: center;
   margin: 32px auto;
 }
@@ -10,7 +9,6 @@
 }
 
 .embed .embed-placeholder {
-  width: 100%;
   position: relative;
 }
 
