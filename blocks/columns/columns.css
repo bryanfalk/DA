@@ -45,5 +45,5 @@
 }
 
 .columns.top > div{
-  vertical-align: top;
+  position: absolute;
 }
