@@ -43,7 +43,3 @@
 .columns.center > div{
   text-align: center;
 }
-
-.columns.top > div{
-  verticalAlign = 'text-top';
-}
