@@ -44,6 +44,7 @@
 
 .columns.center > div{
   text-align: center;
+  verticalAlign = 'top';
 }
 
 .columns.top > div{
