@@ -39,12 +39,12 @@
 
 .columns.light-blue > div{
   background-color: var(--light-blue);
-  verticalAlign = 'top';
+  verticalAlign = 'text-top';
 }
 
 .columns.center > div{
   text-align: center;
-  verticalAlign = 'top';
+  verticalAlign = 'text-top';
 }
 
 .columns.top > div{
