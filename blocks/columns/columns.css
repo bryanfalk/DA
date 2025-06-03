@@ -33,10 +33,13 @@
 
 .columns.light-orange > div{
   background-color: var(--light-orange);
+  element.style.verticalAlign = 'top';
+
 }
 
 .columns.light-blue > div{
   background-color: var(--light-blue);
+  element.style.verticalAlign = 'top';
 }
 
 .columns.center > div{
