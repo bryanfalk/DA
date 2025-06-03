@@ -33,7 +33,7 @@
 
 .columns.light-orange > div{
   background-color: var(--light-orange);
-  verticalAlign = 'top';
+  verticalAlign = 'text-top';
 
 }
 
@@ -48,5 +48,5 @@
 }
 
 .columns.top > div{
-  verticalAlign = 'top';
+  verticalAlign = 'text-top';
 }
