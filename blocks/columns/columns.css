@@ -33,11 +33,14 @@
 
 .columns.light-orange > div{
   background-color: var(--light-orange);
-
 }
 
 .columns.light-blue > div{
   background-color: var(--light-blue);
+}
+
+.columns.light-purple > div{
+  background-color: var(--light-purple);
 }
 
 .columns.center > div{
