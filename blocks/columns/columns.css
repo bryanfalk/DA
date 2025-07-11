@@ -43,6 +43,10 @@
   background-color: var(--light-purple);
 }
 
+.columns.light-green > div{
+  background-color: var(--light-green);
+}
+
 .columns.center > div{
   text-align: center;
 }
