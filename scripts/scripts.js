@@ -12,6 +12,7 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
+/**  decorateButtons
 
 /**
  * Builds hero block and prepends to main in a new section.
